@@ -41,14 +41,17 @@ nav{
     text-decoration: none;
     color: white;
 }
+.coffe{
+    border: solid 3px rgb(73, 73, 73);
+    padding: 10px;
+}
 .txtH{
     position: absolute;
     left: 33%;
     top: 25%;
     z-index: 1;
     text-align: center;
-    border-bottom: solid 3px rgb(233, 227, 227);
-    color: rgb(233, 227, 227);
+    color: white;
 }
 .txtH h1{
     font-size: 150px;

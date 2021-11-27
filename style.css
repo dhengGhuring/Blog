@@ -51,12 +51,16 @@ nav{
     border: solid 3px rgb(73, 73, 73);
     padding: 10px;
 }
+.judul{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
 .txtH{
     position: absolute;
-    left: 40%;
-    top: 25%;
-    z-index: 1;
     text-align: center;
+    left: 35%;
+    top: 230px;
     color: white;
 }
 .txtH h1{

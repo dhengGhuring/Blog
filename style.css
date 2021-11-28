@@ -135,14 +135,36 @@ main{
     height: 100%;
 }
 .cont{
-    padding-top: 150px;
+    padding-top: 110px;
     text-align: center;
     line-height: 50px;
 }
 .cont input{
     padding: 20px;
-    width: 400px;
-    height: 10px;
+    width: 450px;
+    height: 20px;
     border: none;
     border-radius: 2px;
+    background: rgb(179, 176, 176);
+}
+.cont button{
+    text-align: center;
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    background: none;
+    border: solid 2px black;
+}
+.btn:hover{
+    background: white;
+}
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    background: turquoise;
+    position: relative;
+}
+.foot{
+    
 }

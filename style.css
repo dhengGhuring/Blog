@@ -141,11 +141,12 @@ main{
 }
 .cont input{
     padding: 20px;
-    width: 450px;
-    height: 20px;
+    width: 500px;
+    height: 15px;
     border: none;
     border-radius: 2px;
-    background: rgb(179, 176, 176);
+    background: rgb(231, 230, 230);
+    border: 2px solid white;
 }
 .cont button{
     text-align: center;
@@ -154,6 +155,7 @@ main{
     height: 40px;
     background: none;
     border: solid 2px black;
+    font-weight: bold;
 }
 .btn:hover{
     background: white;
@@ -161,10 +163,32 @@ main{
 footer{
     margin-top: 100px;
     width: 100%;
-    height: auto;
-    background: turquoise;
+    height: 20vh;
+    background: white;
     position: relative;
+    display: flex;
+}
+footer ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 30px;
+}
+.social{
+    align-items: center;
+    justify-items: center;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
 }
 .foot{
-    
+    position: absolute;
+    top: 50%;
+    padding-left: 50px;
+}
+.link{
+    position: absolute;
+    top: 50%;
+    left: 70%;
 }

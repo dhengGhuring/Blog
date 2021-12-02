@@ -84,6 +84,13 @@ main{
     position: relative;
     justify-content: center;
 }
+.tmb{
+    width: 200px;
+    height: 200px;
+    background: black;
+    text-decoration: none;
+    color: white;
+}
 .card{
     box-shadow: 0 7px 8px 0 rgba(0,0,0,0.6);
     transition: 0.4s;

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+body{
+    background: whitesmoke;
+}
+header{
+    position: relative;
+    height: 650px;
+}
+.topgambar{
+    position: absolute;
+}
+nav{
+    width: 95%;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin: 0px 30px;
+}
+.logo{
+    margin-left: 10px;
+    flex-basis: 20%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+.toptxt{
+    width: 55%;
+    position: absolute;
+    top: 350px;
+    left: 23%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.toptxt h2{
+    padding-top: 10px;
+}
+main{
+    margin: 0px 0px;
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    left: 25%;
+}
+article{
+    width: 100%;
+    height: 500px;
+    background: white;
+    text-align: center;
+}

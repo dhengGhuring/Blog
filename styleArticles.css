@@ -56,6 +56,7 @@ main{
     margin: 0px 0px;
     width: 70%;
     height: 120vh;
+    /* cek lagi penggunaan satuan vh pada atribut height */
     overflow: hidden;
     position: relative;
     top: 150px;

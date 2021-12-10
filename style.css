@@ -94,7 +94,7 @@ main{
     height: 600px;
     background: white;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 30px;
     border-radius: 1%;
 }
 .card:hover{
@@ -105,7 +105,11 @@ main{
 }
 .card p{
     padding-top: 20px;
+    padding-bottom: 20px;
     line-height: 30px;
+}
+.card a{
+    padding-bottom: 50px;
 }
 .about{
     margin-top: 200px;

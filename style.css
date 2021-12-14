@@ -105,13 +105,17 @@ main{
 }
 .card p{
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     line-height: 30px;
 }
 .card a{
-    padding-bottom: 50px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    background-color: rgb(231, 153, 9);
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 4px;
 }
 .about{
     margin-top: 200px;

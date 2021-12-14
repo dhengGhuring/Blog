@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -88,34 +88,67 @@ main{
 }
 /* one more check the result again, just make it better! */
 .card{
-    box-shadow: 0 7px 8px 0 rgba(0,0,0,0.6);
-    transition: 0.4s;
+    /* box-shadow: 0 7px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.4s; */
     width: 30%;
-    height: 600px;
+    height: 650px;
     background: white;
     text-align: center;
     margin-left: 30px;
     border-radius: 1%;
 }
-.card:hover{
+/* .card:hover{
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.6);
-}
+} */
 .card h1{
     padding-top: 30px;
 }
 .card p{
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 55px;
     line-height: 30px;
 }
 .card a{
+    position: relative;
     padding: 15px 50px;
-    border-radius: 50px;
-    background-color: rgb(231, 153, 9);
+    border: 2px solid black;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 15px;
     letter-spacing: 4px;
+}
+.card a::before{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - 12px);
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    transform:scaleY(1);
+}
+.card a:hover::before{
+    transform: scaleY(0);
+}
+.card a::after{
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% - 12px);
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    transform:scaleX(1);
+    transition-delay: 0.5s;
+}
+.card a:hover::after{
+    transform: scaleX(0);
+}
+.card a span{
+    position: relative;
+    z-index: 3;
 }
 .about{
     margin-top: 200px;

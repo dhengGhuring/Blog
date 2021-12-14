@@ -12,6 +12,7 @@ header{
     position: absolute;
 }
 nav{
+    z-index: 1;
     width: 95%;
     position: absolute;
     top: 50px;
@@ -55,7 +56,7 @@ nav{
 main{
     margin: 0px 0px;
     width: 70%;
-    height: 135vh;
+    height: 300vh;
     /* cek lagi penggunaan satuan vh pada atribut height */
     overflow: hidden;
     position: relative;
@@ -64,7 +65,7 @@ main{
 }
 article{
     width: 100%;
-    height: 1350px;
+    height: 3000px;
     background: white;
     text-align: left;
     border-radius: 5px;

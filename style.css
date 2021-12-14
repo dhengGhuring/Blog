@@ -102,11 +102,13 @@ main{
 } */
 .card h1{
     padding-top: 30px;
+    letter-spacing: 4px;
 }
 .card p{
     padding-top: 20px;
     padding-bottom: 55px;
     line-height: 30px;
+    letter-spacing: 1px;
 }
 .card a{
     position: relative;
@@ -206,6 +208,7 @@ main{
     font-weight: bold;
 }
 .btn:hover{
+    transition-delay: 0.1s;
     background: white;
 }
 footer{

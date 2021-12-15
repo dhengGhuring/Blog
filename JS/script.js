@@ -15,3 +15,4 @@ $('.warp').slick({
     autoplay: true,
     autoplaySpeed: 2500,
   });
+const nav = document.getElementsByTagName("nav") 
